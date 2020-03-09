@@ -1,1 +1,19 @@
 // Mixins Here
+.displayFlex {
+ display: flex;
+ Justify-content: center;
+}
+
+.navStyle {
+ width: 50%;
+ font-size: 30px;
+ text-decoration: none;
+}
+
+//Parametric Mixin
+.buttonStyle(@gray, @size, @white) {
+ color: @white;
+ font-size: @size;
+ background-color: @gray;
+
+}
